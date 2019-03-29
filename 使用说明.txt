@@ -1,0 +1,13 @@
+####这是admin tempt 的使用方法
+
+1.配置登录接口
+位置：src/api/login.js
+
+2.配置权限接口
+位置：src/api/login.js
+
+3.修改token名称，确保token在几个系统间不重复
+位置：src/utils/auth.js
+
+4.增加路由
+位置：src/index.js
